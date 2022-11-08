@@ -1,0 +1,24 @@
+Conceptos JSI
+
+ * Variables
+	Es un elemento formado por un espacio asignado en el sistema y un nombre simbólico que lo representa.
+
+ * Strings
+	Son un atributo de los datos en JS. Esta formada por una secuencia de caracteres que representa un bloque de texto.
+
+ * Funciones (argumentos, `return`)
+	Son bloques de códigos que realizan alguna operación. 
+	Contienen y aislan tareas del resto del codigo y pueden ser invocadas a traves de sentencias con sus argumentos/parametros de entrada.
+
+	Algunas funciones pueden ser argumentadas, esto es, al declararlas es posible asignar un valor a las variables internas de la funcion.
+	Una funcion puede tener cero o mas parametros y son los nombres que aparecen en la definicion de una funcion.
+
+	Cuando se utiliza una declaracion 'return' permite devolver un valor de salida y finalizar la ejecucion de una funcion
+
+ * Declaraciones `if` / * Valores booleanos (`true`, `false`)
+
+	Una forma de que la funcion verifique si algo es verdadero es usando controladores de flujo y comparacion.
+	La declaracion 'if' sirve para establecer que si algo es verdadero (true) realizará determinada ejecución de codigo,
+	de lo contrario, ejecutara otro codigo (false)
+
+ 

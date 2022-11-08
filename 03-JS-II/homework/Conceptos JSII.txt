@@ -1,0 +1,38 @@
+Conceptos JSII
+
+* `for`
+	Una declaracion 'for' establece un bucle de repeticion de codigos repartido en 3 instancias.
+
+	Primero se delcara el valor de la variable. 
+	Luego se verifica con un condicional que la sentencia sea verdadera
+	Finalmente se incementará el valor de la variable.
+
+	El nuevo valor será asignado a la sentencia para ser verificado.
+	El bucle se repetirá hasta que la condicion sea falsa.
+
+	// for (variable, condicion, incremento)
+	// for (var num = 0, num < 10, num++)
+
+* `&&`, `||`, `!`
+	Los operadores lógicos utilizados en una condición combinan dos expresiones de igualdad y se establece el grado de veracida:
+
+	&& establece que si ambas son verdaderas el resultado sera verdadero (true). si alguna de las expresiones no lo es, devolvera un falso 'false'.
+
+		Si las dos expresiones son verdaderas...
+		if (2 + 1 === 4 || 0 < 1) {
+		//se ejecutara este codigo
+		}
+
+	|| establece que si UNA de las expresiones es verdadera alcanzará para devolver un valor booleano verdadero.
+
+		//Mientras una de las expresiones sea verdadera...
+		if (2 + 1 === 4 || 0 < 1) {
+		//se ejecutara este codigo
+		}
+
+	! establece que si la expresion a continuacion es verdadera, el resultado booleano será opuesto, devolvera un falso. Mientra la expresion no se de, el resultado seguirá siendo 'true'.
+
+		//Mientras...
+		if (!(1 === 1)) {
+		//no se ejecutara este codigo
+		}
